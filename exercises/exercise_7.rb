@@ -10,3 +10,12 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+p Store.all
+puts "give new store name:"
+storeName = gets.chomp
+
+Store.create(name:storeName, annual_revenue: 190000, mens_apparel: true)
+
+
+
+
